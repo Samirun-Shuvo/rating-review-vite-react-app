@@ -1,0 +1,278 @@
+.comments_rating_container h2{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .add_review_product_detail{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .add_review_product_detail img{
+    height: 400px;
+    width: 400px;
+  }
+  .commentSubmitBtn{
+    border: none;
+    background: #F79426;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .commentSubmitBtn:hover{
+    background: #585858;
+  }
+  .rating {
+    margin-top: 40px;
+    border: none;
+    float: left;
+  }
+  .jCxQnf {
+    display: inline-block;
+    padding: 0px !important;
+  }
+  .rating > label {
+    color: #90A0A3;
+    float: right;
+  }
+  
+  .rating > label:before {
+    margin: 5px;
+    font-size: 2em;
+    font-family: FontAwesome;
+    content: "\f005";
+    display: inline-block;
+  }
+  
+  .rating > input {
+    display: none;
+  }
+  
+  .rating > input:checked ~ label,
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {
+    color: #F79426;
+  }
+  
+  .rating > input:checked + label:hover,
+  .rating > input:checked ~ label:hover,
+  .rating > label:hover ~ input:checked ~ label,
+  .rating > input:checked ~ label:hover ~ label {
+    color: #FECE31;
+  }
+
+
+  /* ............................. */
+  .reviewSection {
+    margin-top: 20px;
+    padding: 10px 0px;
+    border-top: 1px solid gainsboro;
+  }
+  .customer-qa {
+    border-right: 1px solid gainsboro;
+    padding-right: 30px;
+  }
+  .review-cart {
+    border: 1px solid gainsboro;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .users-content {
+    width: 100%;
+    display: flex;
+  }
+  .user-img img {
+    width: 80px;
+  }
+  .user-qa-header {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gainsboro;
+    justify-content: space-between;
+    /* padding: 0px 0px 0px 0px; */
+  }
+  .rating-star {
+    color: #ef8341;
+  }
+  .rating-star .last {
+    color: #6d6d6d;
+  }
+  .user-qa-header button {
+    background: none;
+    border: none;
+    font-family: "Rajdhani", sans-serif;
+    cursor: pointer;
+  }
+  .comments-container {
+    border: 1px solid gainsboro;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px 0px;
+  }
+  .input-container {
+    display: flex;
+    margin-top: 20px;
+  }
+  .input-container input {
+    width: 100%;
+    outline: none;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 20px;
+  }
+  .input-container-content {
+    width: 100%;
+  }
+  .input-container-content:first-child {
+    margin-right: 10px;
+  }
+  .input-container-content:last-child {
+    margin-left: 10px;
+  }
+  #textarea {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    color: #6d6d6d;
+  }
+  .comments-container button {
+    border: none;
+    padding: 12px 30px;
+    color: #6d6d6d;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "Rajdhani", sans-serif;
+    transition: all 0.2s;
+  }
+  .comments-container button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  .customer-reviews {
+    margin: 0px 30px;
+  }
+  .reviews_list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .reviews_list {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    max-height: 450px;
+    overflow-y: scroll;
+  }
+  .averageRating-container {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .averageRating-container h1 {
+    font-size: 70px;
+    margin-right: 20px;
+    font-weight: 600;
+  }
+  
+  .averageRating-container h2 {
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  
+  .star-progress-container {
+    margin-top: 20px;
+  }
+  
+  .star-progress {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .star-progress p {
+    width: 50px;
+  }
+  
+  .progressbar {
+    width: 400px;
+    height: 17px;
+    background-color: #e0e0e0;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  .progress {
+    background-color: #05658b;
+    color: #ccd;
+    width: 0;
+    border-radius: 30px;
+    height: 17px;
+  }
+  
+  .value {
+    margin-left: 45%;
+    margin-top: -2px;
+  }
+  
+  #value1 {
+    width: 25%;
+  }
+  #value2 {
+    width: 45%;
+  }
+  #value3 {
+    width: 65%;
+  }
+  #value4 {
+    width: 75%;
+  }
+  #value5 {
+    width: 85%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .review-section {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      padding: 0px 20px;
+    }
+    .customer-qa {
+      width: 100%;
+      border-right: none;
+      padding-right: 0px;
+    }
+    .comments-container {
+      border: 1px solid gainsboro;
+      padding: 20px 10px;
+      border-radius: 10px;
+      margin: 40px 0px;
+    }
+    .input-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+    }
+    .input-container-content:first-child {
+      margin-right: 0px;
+    }
+  
+    .input-container-content:last-child {
+      margin-left: 0px;
+    }
+  
+    .customer-reviews {
+      margin: 0px;
+    }
+    .star-progress {
+      display: inline-block;
+    }
+    .progressbar {
+      width: auto;
+    }
+  }
+  
